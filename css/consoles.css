@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+header {
+    background-color: rgb(56, 56, 56);
+    padding: 2rem;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 35px;
+}
+
+.console-container {
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+}
+
+.console-item img {
+    width: 10vw;
+    margin-top: 5rem;
+}
+
+.console-item p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+#playstation-container img {
+    width: 15vw;
+    margin-top: 1rem;
+}
+
+#playstation-container div {
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(56, 56, 56, 0.801);
+    width: 50%;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#playstation-container h3 {
+    font-size: 34px;
+    margin-top: 1.5rem;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+#playstation-container p {
+    margin-top: 1rem;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 20px;
+}
+
+#xbox-container img {
+    width: 15vw;
+    margin-top: 1rem;
+}
+
+#xbox-container div {
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(56, 56, 56, 0.801);
+    width: 50%;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#xbox-container h3 {
+    font-size: 34px;
+    margin-top: 1.5rem;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+#xbox-container p {
+    margin-top: 1rem;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 20px;
+}

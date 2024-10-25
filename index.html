@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/consoles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>La rivalité historique entre ces deux consoles</h1>
+    </header>
+
+    <h2>Choisissez votre console</h2>
+    <div class="console-container">
+        <div class="console-item" onclick="chooseConsole(1)">
+            <img src="img/logo-playstation.png" alt="Logo classique Playstation">
+            <p>Playstation</p>
+        </div>
+        <div class="console-item" onclick="chooseConsole(2)">
+            <img src="img/logo-xbox.png" alt="Logo classique Xbox">
+            <p>Xbox</p>
+        </div>        
+    </div>
+    <div id="playstation-container"></div>
+    <div id="xbox-container"></div>
+
+    <script src="js/consoles.js"></script>
+</body>
+</html>
